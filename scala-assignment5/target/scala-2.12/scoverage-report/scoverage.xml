@@ -1,0 +1,42 @@
+<scoverage 
+statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1531481164864">
+    <packages>
+        <package name="com.knoldus" statement-count="6" statements-invoked="6" statement-rate="100.00">
+            <classes>
+                <class 
+                name="com.knoldus.Arithmatic" filename="com/knoldus/Arithmatic.scala" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus/Arithmatic/division" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="division" start="178" end="188" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="division" start="263" end="278" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="division" start="198" end="227" line="13" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="division" start="198" end="227" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="division" start="263" end="278" line="16" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/Arithmatic/sum" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="Arithmatic" class-type="Class" full-class-name="com.knoldus.Arithmatic" source="/home/knoldus/Downloads/ScalaProjectDemo/src/main/scala/com/knoldus/Arithmatic.scala" method="sum" start="91" end="106" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

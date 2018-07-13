@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.ValueSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.ArithmaticSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.PersonSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.QueueSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.FibbonacciSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.AreaSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.SumSpec, org.scalatest.tools.Framework$$anon$1@514babfa, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 877 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 31[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 31, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.QueueSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.AreaSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.PersonSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.SumSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.ValueSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.ArithmaticSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.FibbonacciSpec[0m

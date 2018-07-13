@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAreaSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of rectangle[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of rectangle with negative dimension[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of square with unequal sides[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of square with equal sides[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of parallelogram[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of parallelogram with negative dimension[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of rhombus[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Checking for area of rhombus with negative dimension[0m[0m

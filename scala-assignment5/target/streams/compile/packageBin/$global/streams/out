@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/scalaprojectdemo_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Area.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com/knoldus/Area.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Fibbonacci.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com/knoldus/Fibbonacci.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Sum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com/knoldus/Sum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Arithmatic.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com/knoldus/Arithmatic.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/Downloads/ScalaProjectDemo/target/scala-2.12/classes/com[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
