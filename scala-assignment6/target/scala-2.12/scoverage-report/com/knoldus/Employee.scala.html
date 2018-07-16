@@ -1,0 +1,358 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/Employee.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>class Employee {
+</span>4 <span style=''>  def findEmployees(employee :Map[Int, Double]) :Set[Int] = {
+</span>5 <span style=''>
+</span>6 <span style=''>    val filteredEmployees = </span><span style='background: #AEF1AE'>employee.filter(emp =&gt; emp._2 &gt; 35000.0 &amp;&amp; (emp._2 * 0.75) &gt; 25000.0)</span><span style=''>
+</span>7 <span style=''>    </span><span style='background: #AEF1AE'>filteredEmployees.keys.toSet</span><span style=''>
+</span>8 <span style=''>
+</span>9 <span style=''>  }
+</span>10 <span style=''>
+</span>11 <span style=''>  def reviseSalary(oldData :Map[Int, Double]) :Map[Int, Double] = {
+</span>12 <span style=''>
+</span>13 <span style=''>    </span><span style='background: #AEF1AE'>oldData.mapValues {
+</span>14 <span style=''></span><span style='background: #AEF1AE'>      case salary if salary &lt; 20000 =&gt; salary * 2
+</span>15 <span style=''></span><span style='background: #AEF1AE'>      case salary if salary &gt;= 20001 &amp;&amp; salary &lt;= 40000 =&gt; salary * 1.5
+</span>16 <span style=''></span><span style='background: #AEF1AE'>      case salary if salary &gt; 40001 =&gt; salary * 1.25
+</span>17 <span style=''></span><span style='background: #AEF1AE'>    }</span><span style=''>
+</span>18 <span style=''>  }
+</span>19 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          172
+          -
+          197
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          emp._2.*(0.75).&gt;(25000.0)
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          129
+          -
+          198
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.TraversableLike.filter
+        </td>
+        <td style="background: #AEF1AE">
+          employee.filter(((emp: (Int, Double)) =&gt; emp._2.&gt;(35000.0).&amp;&amp;(emp._2.*(0.75).&gt;(25000.0))))
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          161
+          -
+          168
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          35000.0
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          152
+          -
+          197
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.&amp;&amp;
+        </td>
+        <td style="background: #AEF1AE">
+          emp._2.&gt;(35000.0).&amp;&amp;(emp._2.*(0.75).&gt;(25000.0))
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          203
+          -
+          231
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.TraversableOnce.toSet
+        </td>
+        <td style="background: #AEF1AE">
+          filteredEmployees.keys.toSet[Int]
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          311
+          -
+          511
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.MapLike.mapValues
+        </td>
+        <td style="background: #AEF1AE">
+          oldData.mapValues[Double](((x0$1: Double) =&gt; x0$1 match {
+  case (salary @ _) if salary.&lt;(20000) =&gt; salary.*(2)
+  case (salary @ _) if salary.&gt;=(20001).&amp;&amp;(salary.&lt;=(40000)) =&gt; salary.*(1.5)
+  case (salary @ _) if salary.&gt;(40001) =&gt; salary.*(1.25)
+}))
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          370
+          -
+          380
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.*
+        </td>
+        <td style="background: #AEF1AE">
+          salary.*(2)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          352
+          -
+          366
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&lt;
+        </td>
+        <td style="background: #AEF1AE">
+          salary.&lt;(20000)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          412
+          -
+          417
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          20001
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          440
+          -
+          452
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.*
+        </td>
+        <td style="background: #AEF1AE">
+          salary.*(1.5)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          402
+          -
+          436
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.&amp;&amp;
+        </td>
+        <td style="background: #AEF1AE">
+          salary.&gt;=(20001).&amp;&amp;(salary.&lt;=(40000))
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          421
+          -
+          436
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&lt;=
+        </td>
+        <td style="background: #AEF1AE">
+          salary.&lt;=(40000)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          492
+          -
+          505
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.*
+        </td>
+        <td style="background: #AEF1AE">
+          salary.*(1.25)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          474
+          -
+          488
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Double.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          salary.&gt;(40001)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
